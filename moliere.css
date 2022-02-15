@@ -1,30 +1,75 @@
-.speech{
-    font-size: 18px;
-    color: black;
-}
-.direction {
-    font-size: 16px;
-    color: black;
-    background-color: blanchedalmond;
-}
-.name{
+h6{
     font-size: 14px;
-    color: black;
+    font-family: 'Times New Roman', Times, serif;
+    color:black;
 }
-p:hover{
-    background-color: red;
-    color: white;
+p{
+    font-size: 14px;
+    font-family: Arial, Helvetica, sans-serif;
+    color:black;
 }
-.DORANTE{
-    color: purple;
+p.speech{
+    font-size: 13px;
+    font-family: Arial, Helvetica, sans-serif;
+    color:black;
 }
-.COVIELLE{
-    color:darkblue;
+p.stage-direction{
+    background-color: rgb(93, 139, 199);
 }
+p.stage-direction:hover{
+    background-color: rgb(131, 131, 65);
+    color: rgb(71, 71, 202);
+}
+h6.name:hover{
+    text-shadow: 3px 3px 2px rgb(185, 185, 74);
+    border: 1px solid rgb(158, 46, 46);
+}
+h6.SIL{
+    color:rgb(24, 24, 75);
+}
+h6.OCT{
+    color:rgb(49, 153, 49);
+}
+h6.Damis{
+    color:rgb(87, 27, 27);
+}
+
 table{
-    width: 100%;
-}
-tr > th > td {
-    border: 1px solid;
+    font-family: Arial, Helvetica, sans-serif;
     border-collapse: collapse;
 }
+td, th{
+    border:1px solid black;
+    text-align: left;
+    padding: 25px 15px;
+    margin: 15px 15px;
+}
+tr:nth-child(even){
+    background-color: rgb(188, 219, 77);
+    }
+tr:nth-child(odd){
+background-color: rgb(212, 71, 71);
+}
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: rgb(14, 110, 170);
+  }
+  
+  li {
+    float: left;
+  }
+  
+  li a {
+    display: block;
+    color: rgb(151, 23, 23);
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+  }
+  
+  li a:hover {
+    background-color: rgb(148, 68, 39);
+  }
